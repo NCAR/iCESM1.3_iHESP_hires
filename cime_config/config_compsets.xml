@@ -72,7 +72,14 @@
     <lname>HIST_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV</lname>
   </compset>
 
+
   <entries>
+    <entry id="FLDS_WISO">
+      <values>
+        <value compset="CLM40">TRUE</value>
+      </values>
+    </entry>
+
     <entry id="RUN_STARTDATE">
       <values>
 	<value compset="1850_"     >0001-01-01</value>
@@ -92,6 +99,7 @@
 	  <value grid="a%ne120np4_l%ne120np4_oi%tx0.1v2_r%r05_g%null_w%null_m%tx0.1v2"      compset="1950TR_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">0055-01-01</value>
 	  <value grid="a%ne120np4_l%ne120np4_oi%tx0.1v2_r%r05_g%null_w%null_m%tx0.1v2"      compset="RCP85_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">2005-01-01</value>
 	  <value grid="a%ne30np4_l%ne30np4_oi%gx1v6_r%r05_g%null_w%null_m%gx1v6"            compset="1850_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">0145-01-01</value>
+          <value grid="a%1.9x2.5_l%1.9x2.5_oi%gx1v6_r%r05_g%null_w%null_m%gx1v6"            compset="1850_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">0505-01-01</value>
 	</values>
     </entry>
 
@@ -109,8 +117,9 @@
       <values match="first">
         <value grid="a%ne120np4_l%ne120np4_oi%tx0.1v2_r%r05_g%null_w%null_m%tx0.1v2" compset="1950_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">B.E.13.B1850C5.ne120_t12.sehires38.003</value>
         <value grid="a%ne120np4_l%ne120np4_oi%tx0.1v2_r%r05_g%null_w%null_m%tx0.1v2" compset="1950TR_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">B.E.13.B1950C5.ne120_t12.cesm-ihesp-1950cntl.009</value>
-	<value grid="a%ne30np4_l%ne30np4_oi%gx1v6_r%r05_g%null_w%null_m%gx1v6"            compset="1850_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">b.e12.B1850C5CN.ne30_g16.control.022</value>
-      </values>
+	<value grid="a%ne30np4_l%ne30np4_oi%gx1v6_r%r05_g%null_w%null_m%gx1v6"            compset="1850_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">b.e12.B1850C5CN.ne30_g16.control.022.isotope</value>
+          <value grid="a%1.9x2.5_l%1.9x2.5_oi%gx1v6_r%r05_g%null_w%null_m%gx1v6"            compset="1850_CAM50_CLM40%SP_CICE_POP2_RTM_SGLC_SWAV">b.e13.Bi1850C5.f19_g16.05</value> 
+     </values>
     </entry>
 
     <entry id="RUN_REFDIR">
