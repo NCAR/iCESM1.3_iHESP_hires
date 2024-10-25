@@ -1,4 +1,4 @@
-# iCESM1.3_iHESP_hires
+# iCESM1.3_hires
 
 This is the isotope-enabled CESM1.3 code that has been ported to the NSF NCAR Derecho supercomputer. This code was developed for the Accelerated Scientific Discovery (ASD) project called *paleoWeather*, led by Dr. Bette Otto-Bliesner. The code was ported by Jim Edwards, with the water isotope capability implemented by Jiang Zhu and Jesse Nusbaumer and tested by Jiang Zhu.
 
